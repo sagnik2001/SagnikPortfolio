@@ -1,0 +1,30 @@
+
+.logo{
+  width:16.25rem;
+}
+nav a.nav-link{
+  font-size: 0.8rem;
+  letter-spacing:0.0375rem;
+  cursor: pointer;
+    margin-right: 0.75rem;
+    color: white !important;
+    margin-left: 0.75rem;
+    border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.nabvar-brand {
+  max-width: 17.25rem;
+  padding:0 !important;
+  height:6rem !important;
+}
+.nabvar{
+  background: linear-gradient(to bottom, transparent 0%, black 100%) !important;
+}
+nav a.nav-link.active, nav a.nav-link:focus{
+  border-top: 0.1875rem solid #FFD700;
+}
+nav a.nav-link.active,nav a.nav-link:hover{
+  color: orange !important;
+}
