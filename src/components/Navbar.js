@@ -1,6 +1,12 @@
 import React from "react";
 import logo from "./logo4.png";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHome } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faTasks } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 import "./Navbar.css"
 const Navbar=()=>{
   return(
@@ -8,25 +14,27 @@ const Navbar=()=>{
     <div className="container">
       <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo.."/></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        
+        <FontAwesomeIcon icon={faBars} style={{color: "white"}}></FontAwesomeIcon>"
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Home </a>
+            <a className="nav-link" href="#"><FontAwesomeIcon icon={faHome} className="nav_icons"/>
+Home </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">About</a>
+            <a className="nav-link" href="#"><FontAwesomeIcon icon={faUser} className="nav_icons"/>About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Projects</a>
+            <a className="nav-link" href="#"><FontAwesomeIcon icon={faTasks} className="nav_icons"/>Projects</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Portfolio</a>
+            <a className="nav-link" href="#"><FontAwesomeIcon icon={faFile} className="nav_icons"/>Portfolio</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contacts</a>
+            <a className="nav-link" href="#"><FontAwesomeIcon icon={faPhone} className="nav_icons"/>Contacts</a>
           </li>
         </ul>
       </div>

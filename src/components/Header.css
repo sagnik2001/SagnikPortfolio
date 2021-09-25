@@ -1,0 +1,51 @@
+.header-wrapper{
+  position:relative;
+  background: url("https://github.com/soumyajit4419/Portfolio/blob/master/src/Assets/home-bg.jpg?raw=true") no-repeat;
+  background-size:cover;
+  background-position:center;
+  height:90vh;
+}
+.main-info {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+
+  font-family:"Roboto Condensed",sans-serif;
+}
+.main-info h1{
+  color: black;
+  text-transform:uppercase;
+
+
+}
+.typed-text{
+  font-size:40px;
+  color: white;
+}
+.aboutpic{
+   position:relative;
+   height:50vh;
+   top:50px;
+
+}
+@media only screen and (max-width: 600px) {
+   .aboutpic{
+     height:25vh;
+     top: 280px;
+   }
+}
+@media only screen and (min-width: 650px) and (max-width:1300px) {
+   .aboutpic{
+     height: 40vh;
+   /* top: 50px; */
+   left: 181px;
+   top: 142px;
+   }
+}
+@media only screen and (min-width: 1350px) {
+   .aboutpic{
+     top: 174px;
+     left: 364px;
+   }
+}
