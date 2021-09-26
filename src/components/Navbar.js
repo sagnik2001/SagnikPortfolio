@@ -7,25 +7,26 @@ import { faTasks } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 const Navbar=()=>{
   return(
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
     <div className="container">
-      <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo.."/></a>
+      <a className="navbar-brand" ><img className="logo" src={logo} alt="logo.."/></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        
+
         <FontAwesomeIcon icon={faBars} style={{color: "white"}}></FontAwesomeIcon>"
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#"><FontAwesomeIcon icon={faHome} className="nav_icons"/>
-Home </a>
+            <Link className="nav-link" to="/"><FontAwesomeIcon icon={faHome} className="nav_icons"/>
+Home </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"><FontAwesomeIcon icon={faUser} className="nav_icons"/>About</a>
+            <Link className="nav-link" to="/about"><FontAwesomeIcon icon={faUser} className="nav_icons"/>About</Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#"><FontAwesomeIcon icon={faTasks} className="nav_icons"/>Projects</a>

@@ -2,10 +2,10 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Header.css"
-
+import Home2 from "./Home.js"
 const Header=()=>{
   return(
-
+<section>
        <Container fluid className="home-section" id="home">
 
          <Container className="home-content">
@@ -20,14 +20,14 @@ const Header=()=>{
                  <strong className="main-name"> SAGNIK PAL</strong>
                </h1>
 
-               <div style={{ padding: 50, textAlign: "left" }}>
+               <div style={{ paddingTop: 50,paddingBottom:50,paddingRight:50,paddingLeft:45, textAlign: "left" }}>
                <Typewriter
       options={{
         strings: [
-          "Developer",
-          "Programmer",
-          "Front End Developer",
-          "Open Source Contributor",
+          "Developer..",
+          "Programmer..",
+          "Front End Developer..",
+          "Open Source Contributor..",
         ],
         autoStart: true,
         loop: true,
@@ -42,8 +42,10 @@ const Header=()=>{
              </Col>
            </Row>
          </Container>
-       </Container>
 
+       </Container>
+    <Home2/>
+   </section>
   )
 }
 export default Header
