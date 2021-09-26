@@ -1,22 +1,49 @@
 import React from 'react';
-import Typed from "react-typed"
+import Typewriter from "typewriter-effect";
+import { Container, Row, Col } from "react-bootstrap";
 import "./Header.css"
+
 const Header=()=>{
   return(
-    <div className="header-wrapper">
-     <div className="main-info">
-        <h1>[Hi There 👋 I am Sagnik Pal...</h1>
 
+       <Container fluid className="home-section" id="home">
 
-          <img className="aboutpic" src="https://github.com/soumyajit4419/Portfolio/blob/master/src/Assets/about.png?raw=true" alt="about..."/>
-     </div>
-    </div>
+         <Container className="home-content">
+           <Row>
+             <Col md={7} className="home-header">
+               <h1 style={{ paddingBottom: 15 }} className="heading">
+                 Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+               </h1>
+
+               <h1 className="heading-name">
+                 I'M
+                 <strong className="main-name"> SAGNIK PAL</strong>
+               </h1>
+
+               <div style={{ padding: 50, textAlign: "left" }}>
+               <Typewriter
+      options={{
+        strings: [
+          "Developer",
+          "Programmer",
+          "Front End Developer",
+          "Open Source Contributor",
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
+               </div>
+             </Col>
+
+             <Col md={5} style={{ paddingBottom: 20 }}>
+               <img src="https://github.com/soumyajit4419/Portfolio/blob/master/src/Assets/about.png?raw=true" alt="home pic" className="img-fluid" />
+             </Col>
+           </Row>
+         </Container>
+       </Container>
+
   )
 }
 export default Header
-/*  <Typed className="typed-text"
-     strings={}
-     typeSpeed={40}
-     backSpeed={60}
-     loop
-  />*/
