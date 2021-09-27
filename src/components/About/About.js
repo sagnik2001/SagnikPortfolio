@@ -2,6 +2,9 @@ import React from 'react';
 import "./About.css"
 import {Container,Row,Col} from "react-bootstrap"
 import AboutCard from "./AboutDetails.js"
+import TechTools from "./TechTools.js"
+import Tools from "./Tools.js"
+import Github from "./GitHubCalender"
 const About=()=>{
   return(
    <Container fluid className="about-section">
@@ -16,7 +19,7 @@ const About=()=>{
                    paddingBottom: "50px",
                  }}
                >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px"}} className="forhigh">
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", paddingLeft:"30px"}} className="forhigh">
            Know Who <strong className="purple">I'M</strong>
          </h1>
          <AboutCard />
@@ -30,9 +33,16 @@ const About=()=>{
           </Col>
 
            </Row>
-           <h1 className="project-heading">
+           <h1 className="project-heading" style={{paddingLeft:"30px"}}>
               Professional <strong className="purple">Skillset </strong>
            </h1>
+           <TechTools/>
+           <h1 className="project-heading1" style={{paddingLeft:"30px"}}>
+                 <strong className="purple">Tools</strong> I use
+           </h1>
+           <Tools/>
+           <br/>
+           <Github/>
        </Container>
    </Container>
 )

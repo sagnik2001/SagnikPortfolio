@@ -29,7 +29,7 @@ Home </Link>
             <Link className="nav-link" to="/about"><FontAwesomeIcon icon={faUser} className="nav_icons"/>About</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"><FontAwesomeIcon icon={faTasks} className="nav_icons"/>Projects</a>
+            <Link className="nav-link" to="/projects"><FontAwesomeIcon icon={faTasks} className="nav_icons"/>Projects</Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#"><FontAwesomeIcon icon={faFile} className="nav_icons"/>Portfolio</a>
