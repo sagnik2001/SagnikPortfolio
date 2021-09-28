@@ -8,7 +8,7 @@ const Contact=()=>{
   const onSubmitHandler=(e)=>{
   e.preventDefault();
 
-  emailjs.sendForm('service_0xizr2d', 'template_fqil3b7', e.target, "user_H3Jw8byh3KGDhYIkoNVbM")
+  emailjs.sendForm(process.env.REACT_APP_EMAIL_ID, process.env.REACT_APP_EMAIL_TEMPLATE, e.target, process.env.REACT_APP_EMAIL_USERID)
     .then((result) => {
     alert('Your message has been sent successfully. We will contact you soon.');
 
