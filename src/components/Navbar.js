@@ -32,10 +32,10 @@ Home </Link>
             <Link className="nav-link" to="/projects"><FontAwesomeIcon icon={faTasks} className="nav_icons"/>Projects</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"><FontAwesomeIcon icon={faFile} className="nav_icons"/>Resume</a>
+            <Link className="nav-link" to="/resume"><FontAwesomeIcon icon={faFile} className="nav_icons"/>Resume</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#"><FontAwesomeIcon icon={faPhone} className="nav_icons"/>Contacts</a>
+            <Link className="nav-link" to="/contacts"><FontAwesomeIcon icon={faPhone} className="nav_icons"/>Contacts</Link>
           </li>
         </ul>
       </div>

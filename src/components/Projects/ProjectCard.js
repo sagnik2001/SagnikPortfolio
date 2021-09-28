@@ -6,7 +6,7 @@ import { BiPaperPlane } from "react-icons/bi";
 const ProjectCard=(props)=>{
   return(
    <Card className="project-card-view">
-   <video controls>
+   <video controls >
   <source src={props.videoPath} type="video/mp4"/>
  </video>
  <Card.Body>

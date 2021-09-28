@@ -59,3 +59,83 @@ html {
     transform: rotate(360deg);
   }
 }
+::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 30px;
+    background-color: #2d1950;
+}
+
+@media only screen and (min-width: 991px) {
+    body::-webkit-scrollbar,
+    .sub-page::-webkit-scrollbar,
+    .single-page-content::-webkit-scrollbar,
+    .header::-webkit-scrollbar,
+    .sub-page::-webkit-scrollbar-track,
+    .header::-webkit-scrollbar-track {
+       background: #2d1950;
+    }
+
+    body::-webkit-scrollbar-thumb,
+    .sub-page::-webkit-scrollbar-thumb,
+    .header::-webkit-scrollbar-thumb {
+        /* background-color: rgba(17, 214, 240, 0.30); */
+       background: rgba(222, 130, 235, 0.911);
+       border-radius:8 px;
+    }
+}
+
+.main-content{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.pages{
+  padding:50px 70px;
+  background-img:url("https://thumbs.dreamstime.com/b/beautiful-purple-galaxy-deep-space-elements-image-furnished-nasa-beautiful-purple-galaxy-deep-space-elements-199441935.jpg") !important;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+img {
+  vertical-align: bottom!important;
+  max-width: 100%!important;
+  height: auto!important;
+  border: 0!important;
+  -ms-interpolation-mode: bicubic;
+}
+
+@media (max-width: 768px) {
+  .col-2 {
+    flex: 0 !important;
+    max-width: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .pages {
+      padding: 50px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .pages {
+      padding: 50px 20px;
+  }
+}
