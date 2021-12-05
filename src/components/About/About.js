@@ -5,6 +5,7 @@ import AboutCard from "./AboutDetails.js"
 import TechTools from "./TechTools.js"
 import Tools from "./Tools.js"
 import Github from "./GitHubCalender"
+import profile from "../../components/profile.jpeg"
 const About=()=>{
   return(
    <Container fluid className="about-section">
@@ -29,7 +30,7 @@ const About=()=>{
             style={{ paddingTop: "120px", paddingBottom: "60px" }}
             className="about-img"
           >
-            <img src="https://media.vanityfair.com/photos/5f4d3a7e1e10df7a77868a63/1:1/w_2143,h_2143,c_limit/BradPitt-GettyImages-1158782727.jpg" alt="about" className="img-fluid" />
+            <img src={profile} alt="about" className="img-fluid" />
           </Col>
 
            </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import profile from ".././components/profile.jpeg"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,7 +19,7 @@ function Home2() {
             A BIT OF  <span className="purple"> INTRODUCTION </span> OF MYSELF
             </h1>
             <p className="home-about-body">
-               A Kiddo who fell in love with programming and aspires to be one of those...
+              I am a Front End Web Developer from India . Aspiring to be a Software Engineer
               <br />
               <br />I am good in languages like
               <i>
@@ -52,7 +52,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/241282546_2818108105154161_7379726433087072422_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=5QSDGOTs110AX_G08ys&_nc_ht=scontent.fccu3-1.fna&oh=aa05cdf39cf5d65d6c1f72acb8c78e70&oe=617562E8" className="img-fluid" alt="avatar" />
+              <img src={profile} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

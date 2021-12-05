@@ -2,6 +2,7 @@ import React from 'react';
 import {Col,Row} from "react-bootstrap"
 import {CgCPlusPlus} from "react-icons/cg";
 import { DiHtml5,DiBootstrap,DiCss3,DiJavascript1,DiReact,DiGit } from "react-icons/di";
+import {FaNode} from "react-icons/fa"
 import { SiFirebase } from "react-icons/si";
 const TechTools=()=>{
   return(
@@ -30,6 +31,9 @@ const TechTools=()=>{
     </Col>
     <Col xs={4} md={2} className="tech-icons">
       <SiFirebase />
+    </Col>
+    <Col xs={4} md={2} className="tech-icons">
+      <FaNode />
     </Col>
   </Row>
   )

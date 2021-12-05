@@ -45,7 +45,7 @@ const Resume=()=>{
                   date="No date"
                   content={[
 
-                    "Not done anything yet",
+                    "Working as Front End Web Developer in BabyCodePvt.Ltd",
 
                   ]}
                 />
@@ -77,7 +77,7 @@ const Resume=()=>{
                   title=""
                   content={[
                     `Current score in Gfg ${gfg}`,
-                   "No more hope for more.."
+                  
                   ]}
                 />
               </Col>

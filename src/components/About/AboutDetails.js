@@ -18,13 +18,13 @@ const AboutCard=()=>{
          </p>
          <ul>
             <li className="about-activity">
-               <ImArrowRight/> Painting
+               <ImArrowRight/>  Painting
             </li>
             <li className="about-activity">
-               <ImArrowRight/> Binge Watching
+               <ImArrowRight/>  Reading Books
             </li>
             <li className="about-activity">
-                <ImArrowRight/>Travelling
+                <ImArrowRight/> Travelling
             </li>
          </ul>
      </blockquote>
