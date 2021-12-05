@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/SagnikPortfolio/static/css/main.e6daa6d0.chunk.css",
+    "main.js": "/SagnikPortfolio/static/js/main.114561db.chunk.js",
+    "main.js.map": "/SagnikPortfolio/static/js/main.114561db.chunk.js.map",
+    "runtime-main.js": "/SagnikPortfolio/static/js/runtime-main.414cede3.js",
+    "runtime-main.js.map": "/SagnikPortfolio/static/js/runtime-main.414cede3.js.map",
+    "static/css/2.f2512455.chunk.css": "/SagnikPortfolio/static/css/2.f2512455.chunk.css",
+    "static/js/2.7d601b38.chunk.js": "/SagnikPortfolio/static/js/2.7d601b38.chunk.js",
+    "static/js/2.7d601b38.chunk.js.map": "/SagnikPortfolio/static/js/2.7d601b38.chunk.js.map",
+    "index.html": "/SagnikPortfolio/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/SagnikPortfolio/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.e6daa6d0.chunk.css.map": "/SagnikPortfolio/static/css/main.e6daa6d0.chunk.css.map",
+    "static/js/2.7d601b38.chunk.js.LICENSE.txt": "/SagnikPortfolio/static/js/2.7d601b38.chunk.js.LICENSE.txt",
+    "static/media/Project-youtube.86284e8d.mp4": "/SagnikPortfolio/static/media/Project-youtube.86284e8d.mp4",
+    "static/media/Project2-Chatapp.22c99eb8.mp4": "/SagnikPortfolio/static/media/Project2-Chatapp.22c99eb8.mp4",
+    "static/media/Project3-SnakeGame.5e772688.mp4": "/SagnikPortfolio/static/media/Project3-SnakeGame.5e772688.mp4",
+    "static/media/logo4.eacc3faf.png": "/SagnikPortfolio/static/media/logo4.eacc3faf.png",
+    "static/media/profile.2fa0c732.jpeg": "/SagnikPortfolio/static/media/profile.2fa0c732.jpeg",
+    "static/media/resume-sample.35c08d13.pdf": "/SagnikPortfolio/static/media/resume-sample.35c08d13.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.414cede3.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.7d601b38.chunk.js",
+    "static/css/main.e6daa6d0.chunk.css",
+    "static/js/main.114561db.chunk.js"
+  ]
+}
