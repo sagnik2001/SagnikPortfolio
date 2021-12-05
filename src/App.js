@@ -1,3 +1,4 @@
+import {React,useState,useEffect} from "react"
 import Navbar from "./components/Navbar.js"
 import About from "./components/About/About.js"
 import Projects from "./components/Projects/Projects.js"
@@ -8,16 +9,28 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import Header from "./components/Header.js";
-import React from "react";
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Pre from "./components/Pre.js"
 function App() {
+  const [load, upadateLoad] = useState(true);
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+    
+    return () => clearTimeout(timer);
+  }, []);
   return (
+    
     <Router>
+       <Pre load={load} />
       <div className="App">
        <Navbar/>
        <Switch>

@@ -21,15 +21,15 @@ function Home2() {
             <p className="home-about-body">
               I am a Front End Web Developer from India . Aspiring to be a Software Engineer
               <br />
-              <br />I am good in languages like
+              <br />I am proficient in languages like
               <i>
                 <b className="purple"> C++,Javascript,ReactJs and C </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are creating new &nbsp;
               <i>
-                <b className="purple">Web Development </b> and
+                <b className="purple">Websites </b> , <b className="purple">Debugging </b> 
                 also in areas related to{" "}
                 <b className="purple">
                    Web Design
@@ -37,7 +37,7 @@ function Home2() {
               </i>
               <br />
               <br />
-            I created a bunch of projects using <b className="purple">Html Css</b> and
+            I have worked on number of projects using <b className="purple">Html Css</b> and
               <i>
                 <b className="purple">
                   {" "}
