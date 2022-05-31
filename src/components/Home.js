@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am proficient in languages like
               <i>
-                <b className="purple"> C++,Javascript,ReactJs and C </b>
+                <b className="purple"> C++,Javascript,and C </b>
               </i>
               <br />
               <br />
@@ -46,7 +46,16 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js </b>
+              </i>
+              <i>
+                <b >
+                  {" "}
+                  and also backend languages such as
+                </b>
+              </i>
+              <i>
+                <b className="purple"> Node js with MongoDb as Database</b>
               </i>
             </p>
           </Col>
